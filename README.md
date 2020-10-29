@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Arnaud's Portfolio
 
-## Available Scripts
+Portfolio I did for myself, I wanted it light and easy to read (recruiters have very limited time...)
 
-In the project directory, you can run:
+## Goal
+The goal of this project was to make a 3 pages website, showcasing some of the projects I've worked on, part of my CV and a contact form
 
-### `yarn start`
+### Part 1: Landing page
+* The game starts with a grid with randomly placed obstacles (20% of all tiles), weapons (4) and players (2). 
+* Each player has a default weapon that inflicts 10 points of damage. The other weapons cause higher damage. 
+* Each player can move 1-3 steps N/E/S/W each turn, provided there is no obstacle or player in their way. 
+* When landing on a tile with a different weapon, they can swap the weapon they are holding for the one on the tile.
+* When landing on a tile adjacent to the other player, a battle begins 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Part 2: CV page
+* The player that caused the start of the fight, starts. 
+* Each turn a player can choose to attack or to defend. 
+* If attacking, the other player loses as many life points as the damage of the weapon the attacking player is holding.
+* If defending, the player will sustain 50% less damage in the following attack.
+* Each player starts of with 100 life points. 
+* The game is over when one player has no life points left. A game over message appears. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Part 3: Contact form
+* The player that caused the start of the fight, starts. 
+* Each turn a player can choose to attack or to defend. 
+* If attacking, the other player lo
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Theme
+The characters and weapons are based on Winx Club, which I used to watch with my sister many years ago. At the start of the game each player is randomly assigned a character. Player 1 is always a fairy (Bloom, Stella or Flora), Player 2 is always a witch (Icy, Darcy or Stormy). The theme and randomly assigning characters to players wasn't part of the requirements, but I liked the challenge and adding a personal touch to it.  
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Technologies
+I used the following technologies:
+* HTML 5 / CSS 3
+* Vanilla JavaScript
+* jQuery 
