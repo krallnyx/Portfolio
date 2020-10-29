@@ -27,3 +27,11 @@ I used the following technologies:
 * HTML 5 / CSS 3 with Bootstrap
 * React (with React-Router)
 * jQuery (for Bootstrap)
+
+## How to run it
+
+In order to run it, simply launch the command "npm install" on the root folder then "npm start", it will open the page on localhost:3000
+
+## Live limk
+
+The webiste is not currently hosted anywhere (as far as I know !)
